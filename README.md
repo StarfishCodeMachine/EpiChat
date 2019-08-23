@@ -1,20 +1,15 @@
 # EpiChat
-Secure chat room for sensitive communication
+A simple, text file based chat room for communication, written in Python 3.7.
 
-Created by StarfishCodeMachine, August 22, 2019
-
-I built this program so that staff could communicate in a secure chat room.
-The program does not rely on internet protocols, it simply writes to and reads from a text file in a secure network folder.
-All communications are retained for future review. 
-Hopefully this will prevent inadvertently sharing sensitive information through email in day-to-day communications between staff.    
-
-They will probably never use it.
+I built this program as an alternate to email and other proprietary communication systems. It is not secure. Chat data is stored in an easily accessible file. The program does not rely on internet protocols, it simply writes to and reads from a text file in a network folder.
 
 Requirements:
-1. tkinter
-2. To make the .exe you need PyInstaller. The install.bat file has the correct parameters for a windowed onefile .exe with my silly picture for the icon   
+1. tkinter and PyInstaller
+ 
+Installation Instructions:
+1. Copy EpiChat_v20190822e.py, chat.ico, and and install.bat to a network folder.
+2. Inside EpiChat_v20190822e.py change the "chatLogLocation" on line 26 to the folder location e.g. 'k:\\chatlogs\\' 
+3. Run install.bat
 
-Instructions:
-1. Copy the Python 3.7 file into a local or network folder and run it from the command prompt. 
-2. If you want to create an .exe, copy install.bat and the ICO file into the same folder and run the bat file.
+Created by StarfishCodeMachine, August 22, 2019
 

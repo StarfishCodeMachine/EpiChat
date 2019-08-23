@@ -1,13 +1,18 @@
 '''
 
-Created by Wes McNeely, August 22, 2019
+A simple, text file based chat room for communication, written in Python 3.7.
 
-I built this program so that staff could communicate in a secure chat room.
-The program does not rely on internet protocols, it simply writes to and reads from a text file in a secure network folder.
-All communications are retained for future review. 
-Hopefully this will prevent inadvertently sharing sensitive information through email in day-to-day communications between staff.    
+I built this program as an alternate to email and other proprietary communication systems. It is not secure. Chat data is stored in an easily accessible file. The program does not rely on internet protocols, it simply writes to and reads from a text file in a network folder.
 
-They will probably never use it.
+Requirements:
+
+tkinter and PyInstaller
+Installation Instructions:
+
+Copy EpiChat_v20190822e.py, chat.ico, and install.bat to a network folder.
+Inside EpiChat_v20190822e.py change the "chatLogLocation" on line 26 to the folder location desired e.g. 'k:\chatlogs\'
+Run install.bat
+Created by StarfishCodeMachine, August 22, 2019
 
 '''
 

@@ -23,7 +23,7 @@ userInfo = win32net.NetUserGetInfo(win32net.NetGetAnyDCName(), win32api.GetUserN
 userName = userInfo["full_name"]
 userChatID = '(' + userName[:-6] + ')'	# subtracts some organization info from the end of the user name, can be adjusted
 
-chatLogLocation = ''	# add file location if desired e.g. 'chatLogs\\' or 'c:\\EpiChat\\chatLogs\\', if empty it puts the log file in the source directory 
+chatLogLocation = 'c:\\EpiChat\\chatLogs\\'	# change file location if desired. If empty it puts the log file in the source directory 
 chatFileName = chatLogLocation+'chatFile_v' + DT.datetime.today().strftime('%Y%m%d') + '.log' # starts a new log file every day, does not overwrite prior logs
 
 ##### FUNCTIONS FOR ENTERING THE CHATROOM, SENDING A CHAT MESSAGE, REFRESHING THE TEXTAREA AND QUITTING 

@@ -11,5 +11,3 @@ Installation Instructions:
 2. Inside EpiChat_v20190822e.py change the "chatLogLocation" on line 26 to the folder location e.g. 'k:\\chatlogs\\' 
 3. Run install.bat
 
-Created by StarfishCodeMachine, August 22, 2019
-

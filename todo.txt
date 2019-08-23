@@ -1,0 +1,8 @@
+x configure window
+x append message at top of chat window
+x no blink refresh
+x add user name from active directory 
+x enter and exit chat 
+send to database?
+add exponential backoff to prevent race conditions
+try appending message to bottom of chat window

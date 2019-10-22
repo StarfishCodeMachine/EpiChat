@@ -13,8 +13,8 @@ Requirements:
 
 Installation Instructions:
 
-	Copy EpiChat_v20190823a.py, chat.ico, and install.bat to a network folder.
-	Inside EpiChat_v20190823a.py, hardcode "chatLogLocation" to desired network folder location e.g. 'k:\\chatlogs\\'
+	Copy EpiChat_v20190828a.py, chat.ico, and install.bat to a network folder.
+	Inside EpiChat_v20190828a.py, hardcode "chatLogLocation" to desired network folder location e.g. 'k:\\chatlogs\\'
 	Run install.bat
 	Give .exe to coworkers
 

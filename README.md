@@ -7,7 +7,7 @@ Requirements:
 1. tkinter and PyInstaller
  
 Installation Instructions:
-1. Copy EpiChat_v20190822e.py, chat.ico, and install.bat to a network folder.
-2. Inside EpiChat_v20190822e.py change the "chatLogLocation" on line 26 to the folder location e.g. 'k:\\chatlogs\\' 
+1. Copy EpiChat_v20190828a.py, chat.ico, and install.bat to a network folder.
+2. Inside EpiChat_v20190828a.py change the "chatLogLocation" on line 26 to the folder location e.g. 'k:\\chatlogs\\' 
 3. Run install.bat
 
